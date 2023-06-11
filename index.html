@@ -25,7 +25,18 @@
       <!-- Header -->
       <header id="header">
         <div class="logo">
-          <i class="fa-solid fa-laptop-code" area-hidden="true"></i>
+          <i id="logo" class="fa-solid fa-laptop-code"
+            onmouseover="addClass(this, 'fa-laptop-code');removeClass(this, 'fa-laptop');"
+            onmouseout="addClass(this, 'fa-laptop');removeClass(this, 'fa-laptop-code');"></i>
+          <script>
+function addClass(element, className) {
+  element.classList.add(className);
+}
+
+function removeClass(element, className) {
+  element.classList.remove(className);
+}
+         </script>
         </div>
         <div class="content">
           <div class="inner">

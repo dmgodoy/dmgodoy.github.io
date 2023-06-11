@@ -1424,17 +1424,10 @@ body.is-preload #bg:before {
   border-radius: 100%;
 }
 
-.logo i.fa-solid.fa-laptop-code {
+#logo {
   font-size: 200%;
   vertical-align: middle;
   margin-bottom: -1px;
-}
-i.fa-solid.fa-laptop-code::before {
-  content: "\f109"; /* Initial Font Awesome icon */
-}
-
-i.fa-solid.fa-laptop-code:hover::before {
-  content: "\f5fc"; /* New Font Awesome icon on mouseover */
 }
 
 #header .logo .icon:before {
